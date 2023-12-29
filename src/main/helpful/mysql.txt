@@ -1,0 +1,8 @@
+CREATE TABLE students (
+    id bigint auto_increment primary key,
+    first_name varchar(255),
+    second_name varchar(255),
+    third_name varchar(255),
+    birthday_at date,
+    group_name varchar(10)
+);

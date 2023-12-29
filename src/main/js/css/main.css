@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+.students-dashboard {
+    height: calc(100% - 32px);
+    width: calc(100% - 32px);
+    margin: 16px;
+}
+
+.students-table__title {
+    margin: 0;
+}
+
+.students-table__button {
+    padding: 8px 16px;
+    margin-top: 8px;
+}
+
+.students-table__action_button {
+    padding: 4px 8px;
+    background: lightcoral;
+    border-width: thin;
+    cursor: pointer;
+}
+
+.students-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.students-table__empty_row {
+    text-align: center;
+    font-weight: 400;
+}
+
+.students-table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+label, input {
+    display: block;
+}
+label {
+    margin-bottom: 2px;
+}
+
+input.text {
+    margin-bottom: 12px;
+    width: 95%;
+    padding: .4em;
+}
+
+fieldset {
+    padding: 0;
+    border: 0;
+    margin-top: 25px;
+}
+#dialog {
+    display: none;
+}
+.ui-dialog .ui-state-error {
+    padding: .3em;
+}
+
+.validateTips {
+    border: 1px solid transparent;
+    padding: 0.3em;
+}
